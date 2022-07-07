@@ -1,9 +1,27 @@
 /* What is a selector? What types of selectors are there? How does each selector type work? */
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#nav {
+    font-weight: 900;
+    font-size: 1.2em;
+}
 
 body {
     padding: 0 25px;
 }
 
-#section-2 h2:nth-child(2){
-
+#section-2 h2 {
+    color: aliceblue;
+    padding-left: 15px;
 }
+
+#section-2 h2:nth-child(2){
+    background-color: black;
+    width: 350px;
+    padding-left: 15px;
+    margin: 15px;
+    color: chartreuse;
+}
+
